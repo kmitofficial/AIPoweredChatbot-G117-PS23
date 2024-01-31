@@ -1,0 +1,306 @@
+{
+    "intents":[
+       {
+          "tag":"greeting",
+          "patterns":[
+            "Hi",
+            "Hii",
+            "Hai",
+            "Hi there",
+            "Hey",
+            "Hola",
+            "Hello"
+          ],
+          "responses":[
+            "Hi there, how can I help?"
+          ],
+          "context":[
+            ""
+          ]
+       },
+       {
+          "tag":"How_are_you",
+          "patterns":[
+            "How are you",
+            "how are you",
+            "How do you do",
+            "how are you doing",
+            "how do you do"
+          ],
+          "responses":[
+            "Hello, Iam doing well. What about you? and thanks for asking"
+          ],
+          "context":[
+            ""
+          ]
+       },
+       {
+          "tag":"goodbye",
+          "patterns":[
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Nice chatting to you, bye",
+            "Till next time"
+          ],
+          "responses":[
+            "See you!",
+            "Have a nice day",
+            "Bye! Come back again soon."
+          ],
+          "context":[
+            ""
+          ]
+       },
+       {
+          "tag":"thanks",
+          "patterns":[
+            "Thanks",
+            "Thank you",
+            "That's helpful",
+            "Awesome, thanks",
+            "Thanks for helping me"
+          ],
+          "responses":[
+            "Happy to help!",
+            "Any time!",
+            "My pleasure"
+          ],
+          "context":[
+            ""
+          ]
+       },
+       {
+          "tag":"noanswer",
+          "patterns":[
+             
+          ],
+          "responses":[
+            "Sorry, can't understand you",
+            "Please give me more info",
+            "Not sure I understand"
+          ],
+          "context":[
+            ""
+          ]
+       },
+       {
+          "tag":"options",
+          "patterns":[
+            "How you could help me?",
+            "What you can do?",
+            "What help you provide?",
+            "How you can be helpful?",
+            "What support is offered"
+          ],
+          "responses":[
+            "I am a chatbot which can let you know about namami gange project also known as NMCG"
+             
+          ],
+          "context":[
+            ""
+          ]
+       },
+       {
+         "tag":"ganga_intro",
+         "patterns":[
+            "About ganga",
+            "about ganga",
+            "what is ganga",
+            "Tell about Ganga River",
+            "Tell about River Ganga",
+            "Ganga River",
+            "River Ganga",
+            "Ganga",
+            "Describe River Ganga",
+            "Can you describe the Ganga River?",
+            "Ganga River information"
+          ],
+         "responses":[
+            "The Ganga River, also known as the Ganges, is one of the major rivers of the Indian subcontinent. It is considered sacred by millions of people in India. The river originates from the Gangotri Glacier in the state of Uttarakhand and flows through northern India, eventually emptying into the Bay of Bengal. The Ganga is known for its cultural, historical, and spiritual significance and is an important source of water for agriculture and daily use for millions of people."
+          ],
+         "context":[
+            ""
+          ]
+        },
+            {
+               "tag":"ganga_importance",
+               "patterns":[
+                  "Importance",
+                  "Why is the Ganga River important?",
+                  "Significance of the Ganga River",
+                  "Religious importance of Ganga",
+                  "Ganga in Hinduism",
+                  "significance",
+                  "Cultural value of Ganga"
+               ],
+               "responses":[
+                  "The Ganga River holds immense importance in Indian culture and spirituality. It is considered sacred and is central to Hindu beliefs. Many rituals and ceremonies are performed on its banks. The river is also important for agriculture and supports a diverse ecosystem. It has played a crucial role in the history and development of India."
+               ],
+               "context":[
+                  ""
+               ]
+            },
+            {
+               "tag":"ganga_conservation",
+               "patterns":[
+                  "How can we conserve the Ganga River?",
+                  "Ways to protect the Ganga River",
+                  "Ganga River conservation efforts",
+                  "what steps",
+                  "how to protect",
+                  "What can I do to help the Ganga?"
+               ],
+               "responses":[
+                  "Conserving the Ganga River requires collective efforts. It involves reducing pollution, responsible waste management, and sustainable agricultural practices. Various governmental and non-governmental organizations are actively involved in river conservation projects. Individuals can contribute by adopting eco-friendly practices and participating in clean-up drives."
+               ],
+               "context":[
+                  ""
+               ]
+            },
+            {
+               "tag":"ganga_threats",
+               "patterns":[
+                  "What are the threats to the Ganga River?",
+                  "Ganga River challenges",
+                  "challenges faced",
+                  "Problems facing the Ganga River",
+                  "Environmental threats to Ganga"
+               ],
+               "responses":[
+                  "The Ganga River faces several threats, including pollution from industrial and domestic sources, over-extraction of water, deforestation in its catchment area, and climate change. These factors contribute to the degradation of the river and its ecosystem. Efforts are ongoing to address these challenges and ensure the river's sustainability."
+               ],
+               "context":[
+                  "" 
+               ]
+            },
+            {
+               "tag": "namami_gange_intro",
+               "patterns": [
+                "NMCG",
+                   "Tell me about the Namami Gange project",
+                   "What is Namami Gange?",
+                   "what is project",
+                   "what is project about",
+                   "about namami gange project",
+                   "about",
+                   "what is nmcg",
+                   "namami gange",
+                   "Namami Gange initiative",
+                   "Ganga cleaning project"
+               ],
+               "responses": [
+                   "Namami Gange is a flagship initiative for cleaning and rejuvenating the Ganga River. It aims to reduce pollution, conserve the river's ecology, and promote sustainable use of water resources. The project encompasses various measures, including sewage treatment, riverfront development, and public awareness campaigns."
+               ],
+               "context": [""]
+           },
+           {
+               "tag": "namami_gange_progress",
+               "patterns": [
+                   "What progress has been made in Namami Gange?",
+                   "Namami Gange achievements",
+                   "impact of the project",
+                   "what are necessary steps",
+                   "significance",
+                   "changes of the project",
+                   "Ganga cleaning status",
+                   "Results of Namami Gange"
+               ],
+               "responses": [
+                   "Namami Gange has made significant progress in improving the cleanliness of the Ganga River. Efforts include the construction of sewage treatment plants, riverbank development, and the introduction of pollution monitoring mechanisms. While challenges remain, there have been positive outcomes in reducing pollution levels and enhancing the overall health of the river."
+               ],
+               "context": [""]
+           },
+           {
+               "tag": "namami_gange_impact",
+               "patterns": [
+                   "What impact does Namami Gange have on the Ganga River?",
+                   "what effect",
+                   "effect",
+                   "Effects of Namami Gange on Ganga",
+                   "Ganga water quality improvement",
+                   "Namami Gange benefits"
+               ],
+               "responses": [
+                   "Namami Gange has a positive impact on the Ganga River by improving water quality, restoring ecosystems, and promoting sustainable practices. The initiative aims to revive the cultural and ecological significance of the Ganga, benefiting communities along its banks and ensuring a cleaner and healthier river for future generations."
+               ],
+               "context": [""]
+           },
+           {
+               "tag": "namami_gange_partnerships",
+               "patterns": [
+                   "Who are the partners involved in Namami Gange?",
+                   "Namami Gange collaborators",
+                   "Partnership for Ganga cleaning",
+                   "who are the people involved",
+                   "people",
+                   "Organizations working on Ganga project"
+               ],
+               "responses": [
+                   "Namami Gange involves collaboration between various government agencies, environmental organizations, and local communities. Partnerships include contributions from the central government, state governments, NGOs, and international entities. The collective effort is crucial for the success of the initiative."
+               ],
+               "context": [""]
+           },
+           {
+               "tag": "namami_gange_future",
+               "patterns": [
+                   "What are the future plans for Namami Gange?",
+                   "Namami Gange upcoming projects",
+                   "Future of Ganga cleaning",
+                   "objectives",
+                   "key goals",
+                   "what are aims",
+                   "Long-term goals for Ganga"
+               ],
+               "responses": [
+                   "The future plans for Namami Gange include continued efforts to reduce pollution, enhance sewage treatment infrastructure, and implement sustainable river management practices. The goal is to ensure the long-term health and vitality of the Ganga River, addressing challenges and promoting holistic river conservation."
+               ],
+               "context": [""]
+           },
+            {
+               "tag":"Who_are_you",
+               "patterns":[
+                  "Who are you",
+                  "Could you please introduce yourself?",
+                  "Can you provide some information about yourself?",
+                  "Could you share some details about your identity?",
+                  "What is your name?"
+               ],
+               "responses":[
+                  "Iam a ChatBot. My motive is to give awareness about River Ganga."
+               ],
+               "context":[
+                  ""
+               ]
+            },
+           {
+               "tag": "objectives",
+               "patterns": [
+                   "what are the key motives",
+                   "things acheived",
+                   "achievements of the project",
+                   "goals",
+                   "what are key goals"
+               ],
+               "responses": [
+                "The goal is to clean Ganga and its tributaries in a comprehensive manner.Sewage Treatment Infrastructure, River Front Development, River Surface Cleaning, Industrial Effluent Monitoring, Biodiversity, Afforestation, Public Awareness and Ganga Gram."
+               ],
+               "context": [""]
+           },
+           {
+            "tag": "importance",
+            "patterns": [
+                "importance",
+                "necessity",
+                "what is the importance"
+            ],
+            "responses": [
+                "NMCG focuses on pollution reduction interventions including interception, diversion and the treatment of wastewater that flows through the open drains. It aims to reduce pollution through bioremediation, apt in-situ treatment, pioneering technology, sewage treatment plants (STP) and effluent treatment plants (ETP)."
+            ],
+            "context": [""]
+        }
+    
+            
+      
+    ]
+ }
